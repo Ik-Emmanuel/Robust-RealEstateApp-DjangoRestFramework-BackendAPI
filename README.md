@@ -45,9 +45,9 @@ This REST API was built with python's Django RESTFramework. This is a complete p
  * pytest --ignore=env/ --ignore=/env/  -p no:warnings --cov=.
 
 ```
-> **Note**  Configure an `.env` file to enter enviroemnt variable as seen in  `.env.example`. 
-> enter all needed env variables
-> create a `mailtrap` account to test email sending or configure email settings 
+> **Note**  - Configure an `.env` file to enter enviroemnt variable as seen in  `.env.example`. 
+>  - enter all needed env variables 
+>  - create a `mailtrap` account to test email sending or configure email settings 
 ## Available API Endpoints
 | METHOD | ROUTE | FUNCTIONALITY |ACCESS|
 | ------- | ----- | ------------- | ------------- |
